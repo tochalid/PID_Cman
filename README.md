@@ -42,4 +42,4 @@ This project involves the Term 2 Simulator which can be downloaded here: https:/
 For this speed, in certain situations the car is oszillating, but staying in the limits of the road. Supposedly, for a regular passenger this would not be acceptable, but could eg. improved by 
 
 - drive slower, eg 30mph
-- implementing a throttle PID controler that reduces speed for curves and accelerates again accordingly
+- implementing a throttle PID controller that reduces speed for curves and accelerates again accordingly
