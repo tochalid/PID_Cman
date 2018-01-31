@@ -1,5 +1,5 @@
 # PID_Cman
-# Submission for Term2 Project 4: PID Controller
+## Submission for Term2 Project 4: PID Controller
 
 Objective: Implementing a PID controller algorithm in C++ to solve a steering angle problem from a simulator of a car driving on a predefined circle track (reference trajectory).
 
@@ -12,7 +12,7 @@ Environment setup and boilerplate code provided by Udacity under https://github.
 
 > Basic algorithm
 
-In main.cpp the PID controller is initialized with a set of 3 params (__Kp, Ki, Kd__) calling the __Init()__ function of the pid instance. The parameters scale effects of the Cross Track Error (__CTE__) to determine the new steering value. This value equals the total error calculated in function __TotalError()__ that the algorithm is trying to minimize. In case the steer value is violating the vehcile spec it is limited to the min/max steering ability (-1 to 1) of the vehicle. PID.cpp implements the __UpdateError()__ function with the proportional, integral and differential errors.
+In main.cpp the PID controller is initialized with a set of 3 params (Kp, Ki, Kd) calling the __Init()__ function of the pid instance. The parameters scale effects of the Cross Track Error (__CTE__) to determine the new steering value. This value equals the total error calculated in function __TotalError()__ that the algorithm is trying to minimize. In case the steer value is violating the vehcile spec it is limited to the min/max steering ability (-1 to 1) of the vehicle. PID.cpp implements the __UpdateError()__ function with the proportional, integral and differential errors.
 
 > Effects of the hyperparameter
 
