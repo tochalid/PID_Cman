@@ -37,7 +37,7 @@ This project involves the Term 2 Simulator which can be downloaded here: https:/
 5. Run and start the simulator (resolution: 600x800, Mode: fastest)
 
 ## Results
-> Vehicle stays on track for multiple rounds with top speed of 65mph. 
+> Vehicle stays on track for multiple rounds with top speed of 60mph. 
 
 For this speed, in certain situations the car is oszillating, but staying in the limits of the road. Supposedly, for a regular passenger this would not be acceptable, but could eg. improved by 
 
