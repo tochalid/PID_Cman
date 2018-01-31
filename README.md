@@ -34,7 +34,9 @@ This project involves the Term 2 Simulator which can be downloaded here: https:/
 5. Run and start the simulator (resolution: 600x800, Mode: fastest)
 
 ## Results
-> Vehicle stays on track for severals rounds with top speed of 60mph. For this speed, in certain situations the car is oszillating, but staying in the limits of the road. Supposedly, for a autonomous passenger car this would not be acceptable, but could eg. improved by 
+> Vehicle stays on track for multiple rounds with top speed of 60mph. 
 
-a. drive slower, eg 30mph
-b. implementing a throttle PID controler that reduces speed for curves and accelerates accordingly
+For this speed, in certain situations the car is oszillating, but staying in the limits of the road. Supposedly, for a autonomous passenger car this would not be acceptable, but could eg. improved by 
+
+- drive slower, eg 30mph
+- implementing a throttle PID controler that reduces speed for curves and accelerates accordingly
