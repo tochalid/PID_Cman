@@ -25,7 +25,7 @@ __Speed throttle__ set to 0.3. The parameters __(Kd, Ki, Kd)__ where determined 
 
 > Finding the hyperparameter
 
-Further "try and observe" in incremental steps led to the final paramters __(0.095,0,1.35)__ at speed throttle __0.55__. Another way of determining the parameters more "sofisticatedly" is to implement a __Coordinate Ascent__ algorithm that converges fast but overshoots initially and needs to be tuned too, see "Twiddle".
+Further "try and observe" in incremental steps led to the final paramters __(0.095,0,1.35)__ at speed throttle __0.55__. Another way of determining the parameters more "sofisticatedly" is to implement a __Coordinate Ascent__ algorithm that converges fast but overshoots initially and needs to be tuned too, see "TWIDDLE".
 
 > TWIDDLE
 
