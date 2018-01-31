@@ -16,7 +16,7 @@ In main.cpp the PID controller is initialized with a set of 3 params (__Kp, Ki, 
 
 > Effects of the hyperparameter
 
-Speed variable set to 0.3. The parameters (Kd, Ki, Kd) where determined manually starting with a proportional term (1,0,0), where the car went off track immediatly. Reducing to (0.1,0,0) decreased the amplitude of the steer angle significantly and as expected, but the car remained oszillating and running off track soon. Introducing a differential term (0.1,0,1) helped to reduce the oszillation and the car completed the track successfully. Increasing the speed throttle to 0.6 resulted in stronger oszillation mitigated with a higher differential term (0.1,0,1.4). To mitigate any biases a small integral term (0.1,0.005,1.4) lead to some overshooting in curves but didnt improve the overall driving behavior, thus dropped back to 0. 
+__Speed throttle__ set to 0.3. The parameters __(Kd, Ki, Kd)__ where determined manually starting with a proportional term (1,0,0), where the car went off track immediatly. Reducing to (0.1,0,0) decreased the amplitude of the steer angle significantly and as expected, but the car remained oszillating and running off track soon. Introducing a differential term (0.1,0,1) helped to reduce the oszillation and the car completed the track successfully. Increasing the speed throttle to 0.6 resulted in stronger oszillation mitigated with a higher differential term (0.1,0,1.4). To mitigate any biases a small integral term (0.1,0.005,1.4) lead to some overshooting in curves but didnt improve the overall driving behavior, thus dropped back to 0. 
 
 > Finding the hyperparameter
 
