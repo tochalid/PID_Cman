@@ -3,9 +3,9 @@
 
 Objective: Implementing a PID controller algorithm in C++ to solve a steering angle problem from a simulator of a car driving on a predefined circle track (reference trajectory).
 
-> Environment setup and boilerplate code provided by Udacity under https://github.com/udacity/CarND-PID-Control-Project.
+Environment setup and boilerplate code provided by Udacity under https://github.com/udacity/CarND-PID-Control-Project.
 
-Improvements where made to:
+> Improvements made to:
 
 - src/main.cpp
 - src/PID.cpp
